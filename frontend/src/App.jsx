@@ -3,7 +3,6 @@ import MenuPage from "./features/menu/pages/MenuPage";
 import DishDetailPage from "./features/menu/pages/DishDetailPage";
 import OrderPage from "./features/menu/pages/OrderPage";
 
-// Environment variable එකෙන් Backend URL එක read කිරීම (Local එකේදී http://localhost:5000 fallback එක ලෙස පවතී)
 const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 export default function App() {

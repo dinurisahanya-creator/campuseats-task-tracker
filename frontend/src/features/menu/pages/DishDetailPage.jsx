@@ -24,7 +24,6 @@ function DishDetailPage() {
     );
   }
 
-  // අදාළ ID එකට අදාළ ඩිෂ් එක සොයා ගැනීම
   const dish = (dishes || []).find((d) => d.id === Number(id));
 
   if (!dish) {
